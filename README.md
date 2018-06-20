@@ -1,4 +1,8 @@
-# Jenkins docker
+# Jenkins Docker
+
+[![Build Status](https://travis-ci.org/maxpou/docker-symfony.svg?branch=master)](https://travis-ci.org/maxpou/docker-symfony)
+
+https://wiki.jenkins.io/download/attachments/138449918/docker-jenkins.png?version=1&modificationDate=1518968278000&api=v2
 
 1. Create the folder 
 create '/var/jenkins_home' folder on your machine
