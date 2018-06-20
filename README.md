@@ -1,12 +1,14 @@
 # Jenkins docker
 
 1. Create the folder 
-create '/var/jenkins_home' folder on your machine with 777 permsiosn
+create '/var/jenkins_home' folder on your machine
 
   ```bash
  $sudo mkdir -p /var/jenkins_home
 
- $sudo chmod 777 /var/jenkins_home
+
+ $sudo chown -R 1000:1000 /var/jenkins_home
+
 
   ```
 
